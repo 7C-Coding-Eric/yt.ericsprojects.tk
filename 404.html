@@ -6,7 +6,7 @@
     border: 0px;
   }
 </style>
-<iframe id="player" width="100%" height="100%" >Sorry, Unable to Iframe Youtube Video.</iframe>
+<iframe id="player" width="100%" height="100%" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>Sorry, Unable to Iframe Youtube Video.</iframe>
 <script>
 console.log('Video ID: ' + window.location.pathname)
 document.getElementById('player').src = "https://youtube.com/embed/" + window.location.pathname;
